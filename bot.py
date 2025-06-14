@@ -89,7 +89,7 @@ async def clear_reminders(update: Update, context: ContextTypes.DEFAULT_TYPE):
 import asyncio
 
 async def main():
-    TOKEN = "8093711785:AAFq2DMhTBoSz_C7yFerKa2QuRuoUFmYm_0"
+    TOKEN = "Ваш Токен"
     app = ApplicationBuilder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
